@@ -54,9 +54,8 @@ nav li {
 }
 main {
   margin: 2% 15%;
-  margin-bottom: 60px;
   position: relative;
-  height: 900px;
+  height: 85vh;
 }
 
 .card-fondo {
@@ -224,7 +223,7 @@ nav li:hover {
 
 footer {
   background-color: #00669f;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100%;
   color: white;
