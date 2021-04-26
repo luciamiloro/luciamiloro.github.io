@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card super heros</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="descuentos">
+      <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+      <a href="./index.html" ><img src="img/Logo SVG.svg"  alt="logo"></a>
+      <h1>Nombre Tienda</h1>
+      <nav>
+        <ul>
+          <a href="./contacto.html">
+            <li>Contacto</li>
+          </a>
+          <a href="./registro.html">
+            <li>Registrarme</li>
+          </a>
+          <a href="./login.html">
+            <li>Ingresar</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="aniadir">
+        <h2>Añadí tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <form action="#">
+          <fieldset class="fieldset1">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha" />
+            <textarea
+              name="descripcion"
+              id="descripcion"
+              placeholder="Descripción"
+            ></textarea>
+          </fieldset>
+          <fieldset class="fieldset2">
+            <label for="especie">Especie</label>
+            <select name="especie" id="especie">
+              <option value="" selected disabled hidden>Especie</option>
+              <option value="Desconocido">Desconocido</option>
+              <option value="Animal">Animal</option>
+              <option value="Alienigena">Alienigena</option>
+            </select>
+            <label for="foto">Agregar foto</label>
+            <input type="file" name="foto" accept=".jpg, .gif, .svg" />
+            
+            <p class= "p1"> Poderes</p>
+            <label>
+              <input type="checkbox" name="poderes" value="volar" /> Volar
+            </label>
+            <label>
+              <input type="checkbox" name="poderes" value="superInteligencia" />
+              SuperInteligencia
+            </label>
+            <label>
+              <input type="checkbox" name="poderes" value="rayoLaser" /> Vista
+              de rayo láser
+            </label>
+            <label>
+              <input type="checkbox" name="poderes" value="billeteraGorda" />
+              Billetera gorda
+            </label>
+            <hr/>
+            
+            <p class= "p1"> TIpo de personaje</p>
+            <label>
+              <input type="radio" name="tipoPersonaje" /> Héroe / Heroina
+            </label>
+            <label>
+              <input type="radio" name="tipoPersonaje" /> Villano / Villana
+            </label>
+          </fieldset>
+          <input class="botonAniadir" type="submit" value="Añadir" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>

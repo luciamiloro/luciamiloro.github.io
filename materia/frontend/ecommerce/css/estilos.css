@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url("./form.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Antes del main */
+.descuentos {
+  background-color: #1cd1b0;
+  left: 62.57px;
+  font-family: Roboto;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+/* --------------header------------------------*/
+header {
+  background: #00669f;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+h1 {
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+header img {
+  width: 70px;
+}
+/* ----------------main---------------- */
+img {
+  margin-left: 10px;
+  width: 100px;
+}
+nav {
+  background-color: #001d2d;
+  text-decoration: none;
+  text-align: right;
+}
+nav li {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+main {
+  margin: 2% 15%;
+  margin-bottom: 60px;
+  position: relative;
+  height: 900px;
+}
+
+.card-fondo {
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
+  height: 193px;
+  position: relative;
+  z-index: -1;
+}
+.card-texto,
+.card-detail {
+  background-color: #f3f3f3;
+  padding: 70px 20px 20px 20px;
+  position: relative;
+  height: 336px;
+}
+
+#plus{
+  color: #00669F;
+  
+  z-index: 999;
+  font-size: 50px;
+ 
+    position:fixed;
+    top: 45% ;
+    left: 90%;
+  }
+
+
+#plus:hover {
+  color: #001D2D;
+  transition: 0.3s;
+}
+
+/* -------------DETAIL--------------- */
+.card-detail {
+  position: absolute;
+  top: 60px;
+  left: 60%;
+  width: 546px;
+  height: 456px;
+  background: #f3f3f3;
+  border-radius: 45px;
+}
+.card-detail h2 {
+  text-decoration-line: underline;
+  color: #2c0187;
+  text-align: center;
+}
+.card-detail p {
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+}
+.card-detail p span {
+  color: #2c0187;
+}
+.detail-img {
+  width: 50px;
+  margin: 5%;
+}
+.volver-home {
+  background-color: #2c0187;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  border-radius: 0px 0px 45px 45px;
+  text-align: center;
+}
+.cora-pixel {
+  position: absolute;
+  width: 40px;
+  top: 30px;
+}
+/*------------------CARD INDEX-----------------*/
+.card-texto p {
+  color: #333333;
+}
+.card-texto h2 {
+  text-align: center;
+}
+.card-texto a {
+  text-align: center;
+  background-color: #00669f;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+}
+.card-texto a:hover {
+  color: #001D2D;
+  transition: 0.3s;
+}
+
+.batman {
+  background-image: url("../img/bg-batman.jpg");
+}
+.harley {
+  background-image: url("../img/harley-bg.png");
+}
+.superman {
+  background-image: url("../img/bg-superman.jpg");
+}
+
+.card {
+  width: 300px;
+  margin: 40px;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.detail {
+  background-image: url("../img/bg-detail.png");
+  margin: 0px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  color: #333333;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.imghero, .imghero-detail {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-size: 400px;
+  position: absolute;
+  top: -90px;
+  left: 75px;
+  z-index: 10px;
+}
+.imghero-detail {
+left: 175px;  
+}
+
+i {
+  color: red;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+}
+
+nav li:hover {
+  color: #0f88c9;
+  transition: 0.3s;
+}
+
+/* -----------------FOOTER------------------- */
+
+footer {
+  background-color: #00669f;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+ 
+}
+
+footer p {
+  padding: 10px;
+  font-size: 16px;
+}
