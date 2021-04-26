@@ -57,6 +57,11 @@ main {
   position: relative;
   height: 85vh;
 }
+.main-index-aniadir{
+  margin: 2% 15%;
+  position: relative;
+  margin-bottom:140vh;
+}
 
 .card-fondo {
   background-size: cover;
